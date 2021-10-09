@@ -1,9 +1,9 @@
-[submodule "people"]
-	path = people
-	url = git@github.com:FreyNell/people.git
 [submodule "auth"]
 	path = auth
 	url = git@github.com:FreyNell/auth.git
 [submodule "accounts"]
 	path = accounts
 	url = git@github.com:FreyNell/accounts.git
+[submodule "people"]
+	path = people
+	url = git@github.com:FreyNell/people.git
