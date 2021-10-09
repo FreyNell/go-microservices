@@ -1,9 +1,9 @@
 [submodule "people"]
 	path = people
-	url = ./people/
+	url = git@github.com:FreyNell/people.git
 [submodule "auth"]
 	path = auth
-	url = ./auth/
+	url = git@github.com:FreyNell/auth.git
 [submodule "accounts"]
 	path = accounts
-	url = ./accounts/
+	url = git@github.com:FreyNell/accounts.git
