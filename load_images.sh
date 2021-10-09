@@ -2,12 +2,12 @@ eval $(minikube docker-env)
 
 docker image prune -y
 
-cd ~/Documents/go_projects/auth/
-docker build -t auth .
-cd ~/Documents/go_projects/people/
-docker build -t people .
-cd ~/Documents/go_projects/accounts/
-docker build -t accounts .
+
+docker build -t auth ./auth
+
+docker build -t people ./people
+
+docker build -t accounts ./accounts
 
 docker images
 
