@@ -1,0 +1,9 @@
+[submodule "people"]
+	path = people
+	url = ./people/
+[submodule "auth"]
+	path = auth
+	url = ./auth/
+[submodule "accounts"]
+	path = accounts
+	url = ./accounts/
