@@ -3,6 +3,7 @@ pipeline {
     stages{
         stage("Build"){
             steps {
+                sh 'cat .gitmodules'
                 sh 'git submodule init'
                 sh 'git submodule update'
                 sh 'docker container prune'
