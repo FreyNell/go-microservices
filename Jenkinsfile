@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage("Checkout the code"){
             steps {
-                sh 'ls -la'
+                sh 'docker ps'
             }            
         }
     }
