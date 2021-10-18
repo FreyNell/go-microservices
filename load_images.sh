@@ -23,6 +23,4 @@ docker run --detach --name mysql -p 3306:3306 --env-file env/variables mysql:lat
 docker images
 docker ps --all
 
-python3 -m http.server
-
 #eval $(minikube docker-env -u)
