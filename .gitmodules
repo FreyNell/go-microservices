@@ -4,6 +4,3 @@
 [submodule "accounts"]
 	path = accounts
 	url = https://github.com/FreyNell/accounts.git
-[submodule "people"]
-	path = people
-	url = https://github.com/FreyNell/people.git
